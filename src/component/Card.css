@@ -1,0 +1,38 @@
+.card{
+    height: 10rem;
+    width: 25rem;
+    background-color: #000000;
+    display: flex;
+    border-radius: 20px;
+    color: white;
+    /* margin-top: 20px; */
+}
+img{
+    height: 140px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    background-color: #262626;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+    margin-top: 10px;
+}
+button:hover{
+    scale: 1.05;
+    background-color: #232323;
+}
+.left{
+    width: 40%;
+}
+.right{
+    width: 60%;
+}
+p{
+    margin-right: 10px;
+    
+}
